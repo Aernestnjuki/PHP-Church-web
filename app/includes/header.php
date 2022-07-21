@@ -1,6 +1,6 @@
     <!-- ====================== START OF HEADER SECTION ================= -->
     <section id="header-section">
-        <nav class="navbar navbar-light bg-purple fixed-top py-4">
+        <nav class="navbar navbar-expanded-sm navbar-light bg-purple fixed-top py-4">
             <div class="container">
                 <div class="navbar-brand font-roboto font-30">
                     <a href="<?php echo BASE_URL . "/index.php" ?>"><span class="c-sky">Awe</span><span class="c-orange">some</span><span class="c-sky">Church</span></a>
