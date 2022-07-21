@@ -167,11 +167,11 @@ ol li a:hover{
 }
 
 .footer{
-    height: 420px;
+    height: auto;
     background-color: rgb(1, 82, 1);
 }
 .footer-content{
-    height: 370px;
+    height: auto;
     border-bottom: 5px solid red;
 }
 .footer-ending{
