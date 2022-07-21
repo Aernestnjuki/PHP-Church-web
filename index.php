@@ -305,8 +305,8 @@
         <section class="join-ministry mt-5" style="background-image: url(assets/images/lake.jpg); height: 60vh; background-position: center; background-attachment: fixed;">
             <div class="container">
                 <div class="join-us py-5 font font-roboto text-center">
-                    <h4 class="text-white">Join us in the spreading the gospel of the lord Jesus Christ</h4>
-                    <hr>
+                    <h4 class="text-primary">Join us in the spreading the gospel of the lord Jesus Christ</h4>
+                    <!-- <hr> -->
 
                     <div class="join-content text-white mt-5">
                         <h5>John 18:36 ESV</h5>
