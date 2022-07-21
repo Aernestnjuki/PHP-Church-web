@@ -11,7 +11,7 @@
     //     die('Database Connection Error:' . $conn->connect_error);
     // }
 
-
+        
 
     //Get Heroku ClearDB connection information
     $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
