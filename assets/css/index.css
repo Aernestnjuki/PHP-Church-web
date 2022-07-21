@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins&family=Roboto+Mono&display=swap');
+
+/* -------------------Custorm style---------------------*/
+.font-oswald{
+    font-family: 'Oswald', sans-serif;
+}
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.font-roboto{
+    font-family: 'Roboto Mono', monospace;
+}
+.font-30{
+    font-size: 30px;
+}
+.font-25{
+    font-size: 25px;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-16{
+    font-size: 16px;
+}
+.bg-purple{
+    background: #9400d3;
+}
+.bg-grape{
+    background: #6f2da8;
+}
+.bg-sky{
+    background: #51d6ca;
+}
+.bg-orange{
+    background: #f59f01;
+}
+.bg-carnation{
+    background: #f14c36;
+}
+.c-sky{
+    color: #51d6ca;
+}
+.c-orange{
+    color: #f59f01;
+}
+.c-carnation{
+    color: #ff2609;
+}
+.c-grape{
+    color: #6f2da8;
+}
+.c-black{
+    color: #010101;
+}
+/* -------------------Custorm style ending---------------------*/
+
+html, 
+body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: #fffeff;
+    box-sizing: border-box;
+}
+
+.navbar{
+    z-index: 10000;
+}
+.navbar-brand a{
+    text-decoration: none;
+}
+ol li a{
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+ol li a:hover{
+    color: #51d6ca;
+    /* border-bottom: 5px solid #f14c36; */
+    transition: all 0.5s ease;
+}
+
+#main-section .banner-section{
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.banner-wrapper{
+    position: absolute;
+    top: 30%;
+    z-index: 100;
+}
+.banner-text{
+    font-size: 30px;
+    font-weight: 700;
+}
+.banner-short{
+    color: #fffeff;
+    font-size: 16px;
+}
+.banner-wrapper .btn1{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+.banner-wrapper .btn1:hover{
+    background: #f59f01;
+    transition: all 0.5s ease;
+}
+.banner-wrapper span .btn2{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+.banner-wrapper span .btn2:hover{
+    background: #51d6ca;
+    transition: all 0.5s ease;
+}
+.social-media{
+    margin-top: 50px;
+}
+.social-media .link{
+    text-decoration: none;
+    color: #ff2609;
+    font-size: 35px;
+    padding-left: 20px;
+    transition: all 0.5s ease;
+}
+.social-media .link:hover{
+    color: #fffeff;
+    transition: all 0.5s ease;
+}
+
+.verse-section{
+    display: flex;
+    margin: 0px;
+}
+.verse-section .word-sider{
+    flex: 3;
+    background: #51d6ca;
+}
+.verse-section .word-main{
+    flex: 7;
+    background-color: #d4d3d4;
+}
+
+.come-all{
+    padding: 60px 0px 20px 0px;
+}
+.come-all h3{
+    padding-bottom: 30px;
+}
+
+.about-church{
+    background-color: gainsboro;
+}
+
+.join-us hr{
+    color: #ff2609;
+    width: 500px;
+    height: 4px;
+    margin-left: 400px;
+}
+
+.footer{
+    height: 420px;
+    background-color: rgb(1, 82, 1);
+}
+.footer-content{
+    height: 370px;
+    border-bottom: 5px solid red;
+}
+.footer-ending{
+    height: 50px;
+}
+
+/* +++++++++++++++++++++++ LOGIN SECTION ++++++++++++++++++++++++++++ */
+
+.login{
+    position: relative;
+    background-color: #d4d3d4;
+}
+.login-content{
+    position: absolute;
+    border: 3px solid #010101;
+    box-shadow: 8px 10px 10px 10px gray;
+    width: 500px;
+    margin-top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* +++++++++++++++++++++++ LOGIN SECTION ++++++++++++++++++++++++++++ */
+
+/* +++++++++++++++++++++++ SIGN UP SECTION ++++++++++++++++++++++++++++ */
+
+.sign-up{
+    position: relative;
+    background-color: #d4d3d4;
+}
+.sign-up-content{
+    position: absolute;
+    border: 3px solid #010101;
+    box-shadow: 8px 10px 10px 10px gray;
+    width: 500px;
+    margin-top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* +++++++++++++++++++++++ SIGN UP SECTION ++++++++++++++++++++++++++++ */
+
+
+/* ======================== OTHER PAGES CUSTORM CSS ========================*/
+.pages-landing{
+    position: relative;
+}
+
+.pages-text{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: 800;
+}
+/* +====================== OTHER PAGES CUSTORM CSS ======================== */
+
+
+/* +++++++++++++++++++++++ ABOUT US PAGE ++++++++++++++++++++++++++++++ */
+
+.about-content .pastor{
+    box-shadow: 8px 10px 10px black;
+}
+
+/* +++++++++++++++++++++++ ABOUT US PAGE ++++++++++++++++++++++++++++++ */
+
+
+/* +++++++++++++++++++++++ MINISTRY PAGE ++++++++++++++++++++++++++++++ */
+
+.row .col-sm-4 .overlay{
+    position: relative;
+}
+
+.ministry-overlay{
+    position: absolute;
+    bottom: 0px;
+    color: #fffeff;
+    background: #51d6ca;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.row .col-sm-4 .overlay:hover .ministry-overlay{
+    opacity: 1;
+    transition: all .5s ease;
+}
+/* +++++++++++++++++++++++ MINISTRY PAGE ++++++++++++++++++++++++++++++ */
+
