@@ -7,5 +7,5 @@
     /* for local host */
     // define("BASE_URL", "http://localhost/php tutorials/AwesomeChurch BackEnd/");
 
-    define("BASE_URL", "https://awosome-church.herokuapp.com/");
+    define("BASE_URL", "https://awosome-church.herokuapp.com");
     
